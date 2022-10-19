@@ -1,0 +1,133 @@
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+
+font-family: 'Roboto', sans-serif;
+
+}
+body{
+    background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%);    display: grid;
+    grid-template-columns:50px auto ;
+    grid-template-rows:100px auto 100px ;
+    grid-template-areas:"navegacion encabezado" "navegacion contenido" "navegacion pie";
+}
+header{
+    grid-area:encabezado ;
+}
+main{
+grid-area:  contenido;
+}
+footer{
+    grid-area: pie;
+}
+.name{
+padding: 20px;
+}
+
+
+.brand span{
+color: aqua;
+}
+
+.info{
+    padding: 150px;
+}
+h1{
+    font-size: 3em;
+}
+
+span{color: aquamarine;}
+
+.download-cv{
+margin: 20px 10px;
+padding: 20px 30px;
+background-color: rgb(193, 230, 218);
+border: none;
+border-radius: 20px;
+cursor: pointer;
+box-shadow: 2px 4px 13px -7px rgba(rgb(0, 221, 255)) ;
+font-size: 15px;
+}
+
+button:hover{
+    transition: ease-in .3s;
+    background-color: aquamarine;
+}
+
+.presentation{
+    color: rgb(26, 33, 32);
+    font-size: 30px;
+
+
+}
+
+.redes:hover{
+    background-color: rgb(58, 163, 163);
+    transition: ease-in .3s;
+    border-radius: 20px;
+   color: black;
+}
+
+.arrow{
+display: flex;
+font-size: 80px;
+justify-content: center;
+align-items: center;
+}
+
+.description{
+    font-size: 25px;
+    padding: 50px;
+    margin:  50px 20px;
+    color: rgb(0, 0, 0);
+}
+
+.h2{
+display: flex;
+justify-content: center;
+margin-top: 40px;
+color: rgb(0, 0, 0);
+
+}
+.icons{
+    list-style: none;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+ background-color: rgb(81, 81, 78);
+ max-width: 1280px;
+}
+
+.icons li{
+    padding: 60px 60px;
+    flex-wrap: wrap;
+}
+.images{
+
+    display: flex;
+    padding: 30px 5px 20px;
+    width: 100px;
+    height: 150px;
+ 
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.redes {
+    text-decoration: none;
+    color: black;
+}
+
